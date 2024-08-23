@@ -1,0 +1,259 @@
+      body {
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    .demo{
+      color:orange;
+    }
+          .registerpage {
+      background: #FFFFFF;
+      display: flex;
+      padding: 23px 126px 0 0;
+      width: 1440px;
+      box-sizing: border-box;
+    }
+    .registerpage .rectangle2 {
+      border-radius: 50px;
+      border: 1px solid #656ED3;
+      position: relative;
+      margin: 0 2px 16px 0;
+      width: 367px;
+      height: 34px;
+    }
+    .registerpage .rectangle9 {
+      border-radius: 50px;
+      border: 1px solid #656ED3;
+      position: relative;
+      margin: 0 2px 12px 0;
+      width: 367px;
+      height: 34px;
+    }
+    .registerpage .rectangle3 {
+      border-radius: 50px;
+      border: 1px solid #656ED3;
+      margin: 0 0 12px 2px;
+      width: 367px;
+      height: 34px;
+    }
+    .registerpage .rectangle10 {
+      border-radius: 50px;
+      border: 1px solid #656ED3;
+      margin: 0 2px 12px 0;
+      width: 367px;
+      height: 34px;
+    }
+    .registerpage .rectangle8 {
+      border-radius: 50px;
+      border: 1px solid #656ED3;
+      margin-left: 2px;
+      width: 367px;
+      height: 34px;
+    }
+    .registerpage .username {
+      margin-bottom: 11px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+    }
+    .registerpage .fullname {
+      margin-bottom: 11px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+    }
+    .yesihaveanaccountlogin {
+      margin: 0 68.1px 27px 68.1px;
+      overflow-wrap: break-word;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+    }
+    .yesihaveanaccountloginsub1 {
+      font-family: 'Inter';
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.333;
+    }
+    .yesihaveanaccountloginsub0{
+      font-family: 'Inter';
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.333;
+    }
+    .registerpage .group1 {
+      border-radius: 10px;
+      background: rgba(8, 18, 127, 0.84);
+      position: relative;
+      margin-bottom: 16.4px;
+      display: flex;
+      padding: 9px 0 11.6px 3px;
+      width: 365px;
+      overflow-wrap: break-word;
+      font-family: 'Poppins';
+      font-weight: 700;
+      font-size: 16px;
+      color: #FFFFFF;
+    }
+    
+    .registerpage .password {
+      margin: 0 4px 11px 4px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+    }
+    .registerpage .email {
+      margin: 0 2px 11px 2px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+    }
+    .registerpage .confirmpassword {
+      margin: 0 4px 11px 4px;
+      display: inline-block;
+      align-self: flex-start;
+      overflow-wrap: break-word;
+      font-family: 'Inter';
+      font-weight: 400;
+      font-size: 16px;
+      color: #000000;
+    }
+    .registerpage .rectangle6 {
+      border-radius: 105.5px;
+      background: #656ED3;
+      transform: rotate(-97.17deg);
+      position: relative;
+      margin-right: 201.7px;
+      left:5%;
+      width: 635px;
+      height: 377px;
+      margin-top: 13%;
+    }
+    .registerpage.rectangle7 {
+      border-radius: 105.5px;
+      background: #141472;
+      position: absolute;
+      left: 209px;
+      top: 91px;
+      width: 377px;
+      height: 635px;
+    }
+    .registerpage .socialmediaicons {
+      margin-left: 696.2px;
+      display: flex;
+      flex-direction: row;
+      align-self: center;
+      width: 88.2px;
+      box-sizing: border-box;
+    }
+    .registerpage .vector {
+      margin: 0 8.8px 0.1px 0;
+      width: 24.2px;
+      height: 24.1px;
+    }
+    .registerpage .vector1 {
+      margin: 0 9.1px 2.3px 0;
+      width: 21.9px;
+      height: 21.9px;
+    }
+    .registerpage .vector2 {
+      width: 24.2px;
+      height: 24.2px;
+    }
+    .registerpage .pleasefilloutformtoregister {
+      margin: 0 2.4px 23px 0;
+      display: inline-block;
+      align-self: center;
+      overflow-wrap: break-word;
+      font-family: 'Inter';
+      font-weight: 700;
+      font-size: 16px;
+      color: #1A1A1A;
+    }
+    .registerpage .rectangle137 {
+      /* background: url("rectangle_137.png") 50% / cover no-repeat; */
+      position: absolute;
+      left: 0px;
+      bottom: 0%;
+      width: 862px;
+      height: 448px;
+    }
+    .registerpage .ellipse5 {
+      position: absolute;
+      top: 0px;
+      right: -10%;
+      top:-15%;
+      width: 402px;
+      height: 380px;
+    }
+    .registerpage .ellipse7 {
+      position: absolute;
+      top: 577px;
+      right: -86px;
+      width: 402px;
+      height: 380px;
+      clip-path: inset(0 0 50% 0); 
+    }
+    .registerpage .container {
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      box-sizing: border-box;
+    }
+    .registerpage .container1 {
+      margin: 100px 0 0 0;
+      display: flex;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+   .container2 {
+      margin-bottom: 18.9px;
+      display: flex;
+      flex-direction: row;
+      width: fit-content;
+      box-sizing: border-box;
+    }
+    @media only screen and (max-width: 900px)  {
+      .registerpage .rectangle6 {
+        display: none;
+      }
+      .registerpage .rectangle7 {
+        display: none;
+      }
+      .registerpage .rectangle137 {
+        display: none;
+      }
+      .registerpage .ellipse7{
+        display: none;
+    
+      }
+      .registerpage .ellipse5{
+        display: none;
+    
+      }
+      .registerpage .container{
+        width: 500px;
+        height: 500px;;
+        align-items: center;
+        margin-top: 0%;
+        margin-left: 100px;
+      }
+    }
+      
