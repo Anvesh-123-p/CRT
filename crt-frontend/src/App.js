@@ -9,6 +9,7 @@ function App() {
   return (
     <Router>
       <Routes>
+        <Route path="/Register" element={<Registration/>} />
         <Route path="/Login" element={<Registration/>} />
         <Route path="/Student_View_Lesson_Plan" element={<Student_view_Lesson_plan/>} />
       </Routes>
