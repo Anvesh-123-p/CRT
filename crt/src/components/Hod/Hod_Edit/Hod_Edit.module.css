@@ -1,0 +1,102 @@
+.navbar {
+    background-color: #2E3977; 
+    padding: 1rem;
+}
+
+.navbar-nav .nav-item {
+    margin-left: 20px;
+}
+
+.navbar-nav .nav-item:last-child {
+    margin-right: 0;
+}
+
+.nav-link {
+    color: white; 
+    padding: 0.5rem 1rem; 
+    border-radius: 0.25rem; 
+    transition: all 0.3s ease; 
+} 
+
+.navlink {
+    color: white; 
+    padding: 0.5rem 1rem; 
+    border-radius: 0.25rem; 
+    transition: all 0.3s ease; 
+}
+
+.profileImage {
+    width: 40px;
+    height: auto;
+    margin-left: 1rem; 
+}
+
+.dropdown-menu {
+    left: auto; 
+    right: 0; 
+}
+
+.formContainer {
+    max-width: 50%; 
+    margin: 2rem auto; 
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    background-color: #F8F8F8; 
+}
+
+.formRow {
+    margin-bottom: 0.2rem; 
+}
+
+.formControl, .formSelect {
+    height: 2.5rem; 
+    font-size: 0.875rem; 
+}
+
+.formLabel {
+    font-size: 0.875rem; 
+    font-weight: 600; 
+}
+
+.btnPrimary {
+    width: 25%; 
+}
+
+.btnCancel {
+    width: 25%; 
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        padding: 0.75rem; 
+    }
+
+    .navbar-nav .nav-item {
+        margin-left: 0;
+        text-align: center; 
+    }
+
+    .navbar-nav {
+        margin-top: 0.5rem; 
+    }
+
+    .navbar-toggler {
+        border-color: rgba(255, 255, 255, 0.1); 
+    }
+
+    .navbar-toggler-icon {
+        background-image: url('data:image/svg+xml;charset=utf8,<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-list" viewBox="0 0 16 16"><path d="M0 3h16v1H0V3zm0 4h16v1H0V7zm0 4h16v1H0v-1z"/></svg>');
+    }
+
+    .profileImage {
+        width: 30px; 
+        margin-left: 0.5rem;
+    }
+}
