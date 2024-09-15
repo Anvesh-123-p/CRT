@@ -2,10 +2,10 @@ import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
-import styles from './Approval_Lesson_Plan.module.css';
+import styles from './Approval_Account.module.css';
 
 
-const Approval_Lesson_Plan = () => {
+const Approval_New_Account = () => {
   return ( 
     <div className="container">
    
@@ -18,25 +18,37 @@ const Approval_Lesson_Plan = () => {
     <div className={`table-container ${styles.table_container}`}>
         <table className={`table table-bordered ${styles.table_body}`}>
             <tbody>
-            <tr>
-                    <th>Name  </th>
-		            <td> Anvash Reddy  </td>
+                <tr>
+                    <th>Name</th>
+                    <td>Anvash Reddy</td>
                 </tr>
                 <tr>
-                    <th>Faculty Id </th>
-		            <td> 123567  </td>
+                    <th>Roll Number</th>
+                    <td>123567</td>
                 </tr>
                 <tr>
-                    <th>Class Name</th>
+                    <th>ClassName Name</th>
                     <td>Albert Einstein</td>
                 </tr>
                 <tr>
-					<th>Total Topics </th>
-					<td> 40  </td>
+                    <th>Mobile</th>
+                    <td>123567890</td>
                 </tr>
                 <tr>
-                    <th>Total Hours  </th>
-		            <td> 80 </td>
+                    <th>Email Id</th>
+                    <td>anvash124@gmail.com</td>
+                </tr>
+                <tr>
+                    <th>Gender</th>
+                    <td>Male</td>
+                </tr>
+                <tr>
+                    <th>Graduation Year</th>
+                    <td>2023</td>
+                </tr>
+                <tr>
+                    <th>Password</th>
+                    <td>*******</td>
                 </tr>
             </tbody>
         </table>
@@ -45,4 +57,4 @@ const Approval_Lesson_Plan = () => {
   );
 };
 
-export default Approval_Lesson_Plan;
+export default Approval_New_Account;
