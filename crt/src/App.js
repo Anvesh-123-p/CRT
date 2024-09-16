@@ -7,6 +7,8 @@ import Approval_Lesson_Plan from './components/Approval_Data/Approval_Lesson_Pla
 import Subject_view from './components/Faculty/Faculty_Subject_view/Subject_view';
 import Lesson_plan from './components/Faculty/Faculty_lesson_plan/Lesson_plan';
 import Approval from './components/Faculty/Faculty_Approval/Approval';
+import Faculty_Profilel from './components/Faculty/Faculty_Profile/Faculty_Profile';
+
 import { BrowserRouter as Router,Routes , Route, BrowserRouter } from 'react-router-dom';
 import React, {useState} from 'react';
 
@@ -19,6 +21,7 @@ function App() {
 
         <Route path="/approval_account" element={<Approval_New_Account/>} />
         <Route path="/approval_lesson" element={<Approval_Lesson_Plan/>} />
+        <Route path="/faculty_profile" element={<Faculty_Profilel/>} />
 
         <Route path="/Subject_view" element={<Subject_view/>} />
         <Route path="/Lesson_plan" element={<Lesson_plan/>} />
