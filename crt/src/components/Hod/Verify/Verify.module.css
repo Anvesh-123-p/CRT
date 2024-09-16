@@ -1,0 +1,116 @@
+.formContainer {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin-left: 30vw;
+}
+
+.myForm {
+    background-color: #fcfcfc;
+    padding: 20px;
+    border-radius: 13px;
+    box-shadow: 0 4px 8px skyblue;
+}
+
+.formGroup {
+    margin-bottom: 40px;
+}
+
+.formGroup1 {
+    margin-bottom: 40px;
+    margin-left: 8vw;
+}
+.formGroup1 label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.required {
+    color: red;
+}
+
+.inputField {
+    width: 95%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.inputField:hover {
+    border-color: skyblue;
+    box-shadow: 0 0 8px skyblue;
+}
+
+.buttonGroup {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.createBtn {
+    width: 50%;
+    padding: 12px;
+    background-color: #333F7C;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0;
+}
+
+.circleInput {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    color: #000000;
+    text-align: center;
+    border: 2px solid rgb(0, 0, 0);
+    margin: 0 10px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 0;
+    max-width: 50px;
+}
+
+.circleInput:focus {
+    border-color: skyblue;
+    box-shadow: 0 0 8px skyblue;
+}
+
+.centeredText {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.verificationText {
+    font-weight: bold;
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.resendLink {
+    color: #E85C4D;
+    text-decoration: none;
+}
