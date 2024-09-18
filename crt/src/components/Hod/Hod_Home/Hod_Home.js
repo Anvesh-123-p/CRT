@@ -14,7 +14,7 @@ const Hod_Home = () => {
                     <div className={`collapse navbar-collapse ${styles.collapse}`} id="navbarSupportedContent">
                         <ul className={`navbar-nav me-auto mb-2 mb-lg-0 ${styles.navbar_nav}`}>
                             <li className={`nav-item ${styles.nav_item}`}>
-                                <a className={`nav-link ${styles.nav_link}`} aria-current="page" href="#">Home</a>
+                                <a className={`nav-link ${styles.nav_link}`} aria-current="page" style={{ fontWeight: 'bold' }}>Home</a>
                             </li>
                             <li className={`nav-item ${styles.nav_item}`}>
                                 <a className={`nav-link ${styles.nav_link}`} href="#">Classes</a>
@@ -26,7 +26,7 @@ const Hod_Home = () => {
                                 <a className={`nav-link ${styles.nav_link}`} href="#">Subjects</a>
                             </li>
                             <li className={`nav-item ${styles.nav_item}`}>
-                                <a className={`nav-link ${styles.nav_link}`} href="#" style={{ fontWeight: 'bold' }}>Approval</a>
+                                <a className={`nav-link ${styles.nav_link}`} href="#" >Approval</a>
                             </li>
                         </ul>
                         <div className={`dropdown ms-auto ${styles.dropdown}`}>

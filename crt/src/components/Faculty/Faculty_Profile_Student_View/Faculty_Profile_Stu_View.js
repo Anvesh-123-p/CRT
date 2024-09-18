@@ -1,7 +1,7 @@
 import React from "react";
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-import styles from './Faculty_Profile.module.css';
+import styles from './Faculty_Profile_Stu_View.module.css';
 import Profile from '../../../assests/profileimg.svg';
 import {Link} from 'react-router-dom';
 
@@ -18,27 +18,23 @@ const Faculty_Profile = () => {
     <div className={`collapse navbar-collapse ${styles.collapse}`} id="navbarSupportedContent">
       <ul className={`navbar-nav me-auto mb-2 mb-lg-0 ${styles.navbar_nav}`}>
         <li className={`nav-item ${styles.nav_item}`}>
-          <Link to="/hodhome" className={`nav-link ${styles.nav_link}`} aria-current="page">Home</Link>
+          <Link to="#" className={`nav-link ${styles.nav_link}`} aria-current="page">Home</Link>
+        </li>
+       
+        <li className={`nav-item ${styles.nav_item}`}>
+          <Link to="#" className={`nav-link ${styles.nav_link}`}>Faculty</Link>
         </li>
         <li className={`nav-item ${styles.nav_item}`}>
-          <Link to="/Create_Subject" className={`nav-link ${styles.nav_link}`}>Classes</Link>
+          <Link to="#" className={`nav-link ${styles.nav_link}`}>Subjects</Link>
         </li>
-        <li className={`nav-item ${styles.nav_item}`}>
-          <Link to="/faculty_profile" className={`nav-link ${styles.nav_link}`}>Faculty</Link>
-        </li>
-        <li className={`nav-item ${styles.nav_item}`}>
-          <Link to="/Subject_view" className={`nav-link ${styles.nav_link}`}>Subjects</Link>
-        </li>
-        <li className={`nav-item ${styles.nav_item}`}>
-          <Link to="/Approval" className={`nav-link ${styles.nav_link}`}>Approval</Link>
-        </li>
+      
       </ul>
       <div className="dropdown ms-auto">
         <img src={Profile} alt="Profile Image" className="dropdown-toggle profile-img" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" />
         <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
-          <Link to="/faculty_profile"><li><span className="dropdown-item ">Profile</span></li></Link>
-          <Link to="/Edit_Faculty"><li><span className="dropdown-item">Edit Profile</span></li></Link>
-          <li><span className="dropdown-item">Logout</span></li>
+          <Link to="#"><li><span className="dropdown-item ">Profile</span></li></Link>
+          <Link to="#"><li><span className="dropdown-item">Edit Profile</span></li></Link>
+           <Link to="#"><li><span className="dropdown-item">Logout</span></li></Link>
         </ul>
       </div>
     </div>
