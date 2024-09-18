@@ -18,7 +18,8 @@ import Faculty_Profilel from './components/Faculty/Faculty_Profile/Faculty_Profi
 import Hod_Home from './components/Hod/Hod_Home/Hod_Home';
 import Forgot_Pass from './components/Hod/Forgot_Pass/Forgot_Pass';
 import Verify from './components/Hod/Verify/Verify';
-import Student_login from './components/Student/Student_login/Student_login'
+import Student_login from './components/Student/Student_login/Student_login';
+import Student_signup from './components/Student/Student_signup/Student_signup';
 import { BrowserRouter as Router,Routes , Route, BrowserRouter } from 'react-router-dom';
 import React, {useState} from 'react';
 
@@ -46,6 +47,7 @@ function App() {
         <Route path="/Create_Subject" element={<Create_Subject/>}/>
         <Route path="/Edit_Subject" element={<Edit_Subject/>}/>
         <Route path="/Student_login" element={<Student_login/>}/>
+        <Route path="/Student_singup" element={<Student_signup/>}/>
       </Routes>
     </Router>
   );
