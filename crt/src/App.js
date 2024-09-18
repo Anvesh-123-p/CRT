@@ -51,7 +51,8 @@ function App() {
 
         <Route path="/Create_Subject" element={<Create_Subject/>}/>
         <Route path="/Edit_Subject" element={<Edit_Subject/>}/>
-
+      
+       
       </Routes>
     </Router>
   );
