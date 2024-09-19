@@ -14,6 +14,9 @@ import Faculty_Profilel from './components/Faculty/Faculty_Profile/Faculty_Profi
 import Hod_Home from './components/Hod/Hod_Home/Hod_Home';
 import Forgot_Pass from './components/Hod/Forgot_Pass/Forgot_Pass';
 import Verify from './components/Hod/Verify/Verify';
+import Create_class from './components/Hod/Create_Class/Create_Class';
+import Faculty_View from './components/Hod/Faculty_View/Faculty_View';
+import Class_View from './components/Hod/Class_View/Class_View';
 import { BrowserRouter as Router,Routes , Route, BrowserRouter } from 'react-router-dom';
 import React, {useState} from 'react';
 
@@ -36,6 +39,9 @@ function App() {
         <Route path="/Hod/Edit_Faculty" element={<Edit_Faculty/>}/>
         <Route path="/Hod/Create_Subject" element={<Create_Subject/>}/>
         <Route path="/Hod/Edit_Subject" element={<Edit_Subject/>}/>
+        <Route path="/Hod/Create_Class" element={<Create_class/>}/>
+        <Route path="/Hod/Faculty_View" element={<Faculty_View/>}/>
+        <Route path="/Hod/Class_View" element={<Class_View/>}/>
       </Routes>
     </Router>
   );
