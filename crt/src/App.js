@@ -71,6 +71,7 @@ function App() {
         <Route path="/Hod/Subject_view" element={<Subject_view/>} />
         <Route path="/Hod/Lesson_plan" element={<Lesson_plan/>} />
         <Route path="/Hod/Approval" element={<Approval/>} />
+        
         {/* <Route path="/Create_Faculty" element={<Create_Faculty/>}/> */}
         <Route path="/Hod/Edit_Faculty" element={<Edit_Faculty/>}/>
         <Route path="/Hod/Create_Subject" element={<Create_Subject/>}/>
