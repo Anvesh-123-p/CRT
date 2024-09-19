@@ -11,18 +11,21 @@ import Create_Faculty from './components/Faculty/Create_Faculty/create_faculty';
 import Edit_Faculty from './components/Faculty/Edit_Faculty/edit_faculty';
 import Create_Subject from './components/Subjects/Create_Subject/create_subject';
 import Edit_Subject from './components/Subjects/Edit_Subject/edit_subject';
-<<<<<<< HEAD
+
 
 import Faculty_Profile from './components/Faculty/Faculty_Profile/Faculty_Profile';
 import Faculty_Profile_Student_View from './components/Faculty/Faculty_Profile_Student_View/Faculty_Profile_Stu_View';
 
 
-=======
+
 import Faculty_Profilel from './components/Faculty/Faculty_Profile/Faculty_Profile';
->>>>>>> f29e01c905606beb44d13c767d6d254d12a1a4e1
+
 import Hod_Home from './components/Hod/Hod_Home/Hod_Home';
 import Forgot_Pass from './components/Hod/Forgot_Pass/Forgot_Pass';
 import Verify from './components/Hod/Verify/Verify';
+import Create_class from './components/Hod/Create_Class/Create_Class';
+import Faculty_View from './components/Hod/Faculty_View/Faculty_View';
+import Class_View from './components/Hod/Class_View/Class_View';
 import { BrowserRouter as Router,Routes , Route, BrowserRouter } from 'react-router-dom';
 import React, {useState} from 'react';
 
@@ -31,7 +34,7 @@ function App() {
   return (
     <Router>
       <Routes>
-<<<<<<< HEAD
+
         <Route path="/Hodedit" element={<Hod_Edit/>} />
         
 
@@ -72,7 +75,12 @@ function App() {
         <Route path="/Hod/Edit_Faculty" element={<Edit_Faculty/>}/>
         <Route path="/Hod/Create_Subject" element={<Create_Subject/>}/>
         <Route path="/Hod/Edit_Subject" element={<Edit_Subject/>}/>
->>>>>>> f29e01c905606beb44d13c767d6d254d12a1a4e1
+
+
+        <Route path="/Hod/Create_Class" element={<Create_class/>}/>
+        <Route path="/Hod/Faculty_View" element={<Faculty_View/>}/>
+        <Route path="/Hod/Class_View" element={<Class_View/>}/>
+
       </Routes>
     </Router>
   );
