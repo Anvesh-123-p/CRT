@@ -1,5 +1,6 @@
 import React from 'react';
 import styles from './edit_subject.module.css';
+import {Link} from 'react-router-dom';
 
 const EditSubject = () => {
   return (
@@ -28,7 +29,7 @@ const EditSubject = () => {
             </select>
         </div>
         <div class={styles.buttongroup}>
-            <button type="button" class={styles.backbtn}>Back</button>
+           <Link to="/faculty_profile"><button type="button" class={styles.backbtn} >Back</button></Link>  
             <button type="submit" class={styles.createbtn}>Save</button>
           </div>
       </div>

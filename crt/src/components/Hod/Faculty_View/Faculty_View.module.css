@@ -1,4 +1,4 @@
-.navbar {
+.nav_bar {
     background-color: #2E3977; 
 }
 
@@ -17,10 +17,13 @@
     transition: all 0.3s ease; 
 }
 
-.navbar img {
+.nav_bar img {
     width: 50px;
     height: 50px;
     margin-left: 1rem; 
+}
+.nav_link:hover{
+    color:black;
 }
 
 .page {
@@ -57,7 +60,7 @@
     right: auto;
 }
 
-.navbar {
+.nav_bar {
     transition: height 0.3s ease;
 }
 
@@ -71,7 +74,7 @@
 }
 
 @media (max-width: 768px) {
-    .navbar {
+    .nav_bar {
         width: 100vw;
         overflow: hidden;
     }

@@ -2,44 +2,45 @@ import React from 'react';
 import styles from './Hod_Home.module.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import imgprofile from '../../../assests/profileimg.svg';
+import {Link} from 'react-router-dom';
 
 const Hod_Home = () => {
     return (
         <div>
-            <nav className={`navbar navbar-expand-lg ${styles.navbar}`}>
-                <div className="container-fluid">
-                    <button className={`navbar-toggler ${styles.navbar_toggler}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span className="navbar-toggler-icon"></span>
-                    </button>
-                    <div className={`collapse navbar-collapse ${styles.collapse}`} id="navbarSupportedContent">
-                        <ul className={`navbar-nav me-auto mb-2 mb-lg-0 ${styles.navbar_nav}`}>
-                            <li className={`nav-item ${styles.nav_item}`}>
-                                <a className={`nav-link ${styles.nav_link}`} aria-current="page" style={{ fontWeight: 'bold' }}>Home</a>
-                            </li>
-                            <li className={`nav-item ${styles.nav_item}`}>
-                                <a className={`nav-link ${styles.nav_link}`} href="#">Classes</a>
-                            </li>
-                            <li className={`nav-item ${styles.nav_item}`}>
-                                <a className={`nav-link ${styles.nav_link}`} href="#">Faculty</a>
-                            </li>
-                            <li className={`nav-item ${styles.nav_item}`}>
-                                <a className={`nav-link ${styles.nav_link}`} href="#">Subjects</a>
-                            </li>
-                            <li className={`nav-item ${styles.nav_item}`}>
-                                <a className={`nav-link ${styles.nav_link}`} href="#" >Approval</a>
-                            </li>
-                        </ul>
-                        <div className={`dropdown ms-auto ${styles.dropdown}`}>
-                            <img src={imgprofile} alt="Profile Image" className={`dropdown-toggle ${styles.profile_img}`} id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" />
-                            <ul className={`dropdown-menu dropdown-menu-end ${styles.dropdown_menu}`} aria-labelledby="dropdownMenuButton">
-                                <li><a className="dropdown-item" href="#">Profile</a></li>
-                                <li><a className="dropdown-item" href="#">Edit Profile</a></li>
-                                <li><a className="dropdown-item" href="#">Logout</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+                  <nav className={`navbar navbar-expand-lg ${styles.nav_bar}`  }>
+  <div className="container-fluid">
+    <button className={`navbar-toggler ${styles.navbar_toggler}`} type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span className="navbar-toggler-icon"></span>
+    </button>
+    <div className={`collapse navbar-collapse ${styles.collapse}`} id="navbarSupportedContent">
+      <ul className={`navbar-nav me-auto mb-2 mb-lg-0 ${styles.navbar_nav}`}>
+        <li className={`nav-item ${styles.nav_item}`}>
+          <Link to="/hodhome" className={`nav-link ${styles.nav_link}`} aria-current="page" style={{ fontWeight: 'bold' }}>Home</Link>
+        </li>
+        <li className={`nav-item ${styles.nav_item}`}>
+          <Link to="/Hod/Class_View" className={`nav-link ${styles.nav_link}`}>Classes</Link>
+        </li>
+        <li className={`nav-item ${styles.nav_item}`}>
+          <Link to="/Hod/Faculty_View" className={`nav-link ${styles.nav_link}`}>Faculty</Link>
+        </li>
+        <li className={`nav-item ${styles.nav_item}`}>
+          <Link to="/Subject_view" className={`nav-link ${styles.nav_link}`}>Subjects</Link>
+        </li>
+        <li className={`nav-item ${styles.nav_item}`}>
+          <Link to="/Approval" className={`nav-link ${styles.nav_link}`}>Approval</Link>
+        </li>
+      </ul>
+      <div className="dropdown ms-auto">
+        <img src={imgprofile} alt="Profile Image" className="dropdown-toggle profile-img" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false" />
+        <ul className="dropdown-menu dropdown-menu-end" aria-labelledby="dropdownMenuButton">
+          <Link to="/faculty_profile"><li><span className="dropdown-item ">Profile</span></li></Link>
+          <Link to="/Edit_Faculty"><li><span className="dropdown-item">Edit Profile</span></li></Link>
+          <li><span className="dropdown-item">Logout</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
 
             <div className={styles.cardcontainer}>
                 <div className={styles.card}>

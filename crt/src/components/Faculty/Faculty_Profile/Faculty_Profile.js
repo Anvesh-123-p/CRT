@@ -21,10 +21,10 @@ const Faculty_Profile = () => {
           <Link to="/hodhome" className={`nav-link ${styles.nav_link}`} aria-current="page">Home</Link>
         </li>
         <li className={`nav-item ${styles.nav_item}`}>
-          <Link to="/Create_Subject" className={`nav-link ${styles.nav_link}`}>Classes</Link>
+          <Link to="/Hod/Class_View" className={`nav-link ${styles.nav_link}`}>Classes</Link>
         </li>
         <li className={`nav-item ${styles.nav_item}`}>
-          <Link to="/faculty_profile" className={`nav-link ${styles.nav_link}`}>Faculty</Link>
+          <Link to="/Hod/Faculty_View" className={`nav-link ${styles.nav_link}`}>Faculty</Link>
         </li>
         <li className={`nav-item ${styles.nav_item}`}>
           <Link to="/Subject_view" className={`nav-link ${styles.nav_link}`}>Subjects</Link>
