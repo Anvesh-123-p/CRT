@@ -26,6 +26,8 @@ import Verify from './components/Hod/Verify/Verify';
 import Create_class from './components/Hod/Create_Class/Create_Class';
 import Faculty_View from './components/Hod/Faculty_View/Faculty_View';
 import Class_View from './components/Hod/Class_View/Class_View';
+import Student_Edit_Profile from './components/Student/Student_Edit_Profile/Student_Edit_Profile';
+import Student_Home from './components/Student/Student_Home/Student_Home'
 
 import Student_login from './components/Student/Student_login/Student_login';
 import Student_signup from './components/Student/Student_signup/Student_signup'; 
@@ -41,6 +43,9 @@ function App() {
       <Routes>
 
         <Route path="/Hodedit" element={<Hod_Edit/>} />
+        <Route path="/Student/Edit_Profile" element={<Student_Edit_Profile/>} />
+
+
         
 
 
@@ -89,6 +94,7 @@ function App() {
 
         <Route path="/Student_login" element={<Student_login/>}/>
         <Route path="/Student_signup" element={<Student_signup/>}/>
+        <Route path="/Student/Home" element={<Student_Home/>} />
 
 
       </Routes>
