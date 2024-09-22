@@ -26,8 +26,13 @@ import Verify from './components/Hod/Verify/Verify';
 import Create_class from './components/Hod/Create_Class/Create_Class';
 import Faculty_View from './components/Hod/Faculty_View/Faculty_View';
 import Class_View from './components/Hod/Class_View/Class_View';
+
+import Student_login from './components/Student/Student_login/Student_login';
+import Student_signup from './components/Student/Student_signup/Student_signup'; 
+
 import { BrowserRouter as Router,Routes , Route, BrowserRouter } from 'react-router-dom';
 import React, {useState} from 'react';
+
 
 
 function App() {
@@ -81,6 +86,10 @@ function App() {
         <Route path="/Hod/Create_Class" element={<Create_class/>}/>
         <Route path="/Hod/Faculty_View" element={<Faculty_View/>}/>
         <Route path="/Hod/Class_View" element={<Class_View/>}/>
+
+        <Route path="/Student_login" element={<Student_login/>}/>
+        <Route path="/Student_signup" element={<Student_signup/>}/>
+
 
       </Routes>
     </Router>

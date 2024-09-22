@@ -1,0 +1,108 @@
+.Body_login {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    overflow: hidden; /* Prevents scrolling */
+}
+
+.form_container {
+    width: 100%;
+    max-width: 30%;
+    margin-left: 60%;
+    margin-top: 4%;
+    height: 420px;
+    padding: 20px;
+    background-color: white;
+    overflow: hidden;
+   
+}
+
+.circle {
+    width: 200vh;
+    height: 200vh;
+    background-color: #2E3977;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: -100vh;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-y: hidden;
+    clip-path: inset(0 0 24% 0 );
+  
+}
+
+.centered_image {
+    max-width: 50%;
+    max-height: 50%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    right: 6%;
+    transform: translateY(-50%);
+}
+
+.required_asterisk {
+    color: red;
+}
+
+.btn_full_width {
+    width: 100%;
+}
+
+.custom_btn {
+    background-color: #060706 !important;
+    border-color: #28a7a3 !important;
+    color: white !important;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.custom_btn:hover {
+    background-color: #217c88 !important;
+    color: #f8f9fa !important;
+}
+
+.f {
+    color: black;
+    cursor: pointer;
+}
+
+.password_container {
+    position: relative;
+}
+
+.passwordLabel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.passwordLabel input[type="password"],
+.passwordLabel input[type="text"] {
+    flex-grow: 1;
+    padding-right: 50px;
+}
+
+.password_toggle {
+    position: absolute;
+    right: 10px;
+    top: 70%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.bottom_links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.forget_password {
+    text-align: right;
+}
+
+
